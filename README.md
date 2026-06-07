@@ -32,12 +32,31 @@ PowerShell-based endpoint inventory and reporting solution designed to demonstra
 | ABC123        | John Doe   | HP EliteBook | Assigned  |
 | XYZ456        | Jane Smith | HP ProBook   | Available |
 
+## Sample Output
+
+Example search using serial number **ABC123**:
+
+```text
+Enter Serial Number: ABC123
+
+Device Found
+
+SerialNumber User     Model        Status
+------------ ----     -----        ------
+ABC123       John Doe HP EliteBook Assigned
+```
+
+## Screenshot
+
+![Endpoint Asset Management Output](AssetInventoryOutput.png)
+
 ## Future Enhancements
 
 * Excel Export Support
 * GUI Interface
 * Device Lifecycle Reporting
 * Microsoft Graph Integration
+* Microsoft Intune Integration
 
 ## Author
 
